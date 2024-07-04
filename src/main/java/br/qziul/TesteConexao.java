@@ -30,15 +30,14 @@ public class TesteConexao {
 
                 UserDAO userDAO = new UserDAO(conexao);
 
+                // COMANDOS CRUD
                 /*
-                    COMANDOS CRUD
                     insert(userDAO);
                     selectAll(userDAO);
                     deleteAll(userDAO);
                     updateById(userDAO, 1);
                     selectById(userDAO, 1);
                     deleteById(userDAO, 7);
-
                  */
 
                 conexao.close();
